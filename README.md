@@ -14,6 +14,7 @@ git clone https://github.com/hophamlam/odoo.gaolamthuy.vn.git
 cd odoo.gaolamthuy.vn
 sudo chmod -R 777 addons
 sudo chmod -R 777 etc
+sudo chmod -R 777 entrypoint.sh
 mkdir -p postgresql
 sudo chmod -R 777 postgresql
 ```
