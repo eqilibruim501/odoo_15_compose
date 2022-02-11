@@ -7,6 +7,10 @@ ports:
  - "10015:8069"
 ```
 
+```
+minhng.info7tf5t634#$%^
+```
+
 **If you get the permission issue**, change the folder permission to make sure that the container is able to access the directory:
 
 ``` sh
@@ -35,26 +39,6 @@ The **addons/** folder contains custom addons. Just put your custom addons if yo
 * To change Odoo configuration, edit file: **etc/odoo.conf**.
 * Log file: **etc/odoo-server.log**
 * Default database password (**admin_passwd**) is `minhng.info`, please change it @ [etc/odoo.conf#L60](/etc/odoo.conf#L60)
-
-# Odoo container management
-
-**Run Odoo**:
-
-``` bash
-docker-compose up -d
-```
-
-**Restart Odoo**:
-
-``` bash
-docker-compose restart
-```
-
-**Stop Odoo**:
-
-``` bash
-docker-compose down
-```
 
 # Live chat
 
